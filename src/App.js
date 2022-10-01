@@ -1,31 +1,31 @@
 import React from "react";
-import Weather from "./Weather";
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
-      <div className="container"></div>
-      Weather App
-      <Weather />
-      <footer>
-        This project was coded by{" "}
-        <a
-          href="https://cozy-palmier-cefde3.netlify.app"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Michelle Chan
-        </a>
-        and is{" "}
-        <a
-          href="https://github.com/michellechan40/react-weather-app"
-          target="_blank"
-          rel="noreferrer"
-        >
-          open-sourced on GitHub
-        </a>
-      </footer>
+      <div className="container">
+        <Weather defaultCity="Nairobi" />
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://cozy-palmier-cefde3.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Michelle Chan
+          </a>
+          and is{" "}
+          <a
+            href="https://github.com/michellechan40/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
