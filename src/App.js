@@ -8,13 +8,13 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Nairobi" />
         <footer>
-          This project was coded by{" "}
+          This React project was coded by{" "}
           <a
             href="https://cozy-palmier-cefde3.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Michelle Chan
+            Michelle Chan {""}
           </a>
           and is{" "}
           <a

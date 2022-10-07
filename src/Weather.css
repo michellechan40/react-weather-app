@@ -2,8 +2,7 @@
   font-family: arial, sans-serif;
   border: 1px solid #dadde1;
   padding: 16px;
-  border-radius: 4px;
-  color: rgb(135, 135, 135);
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 .Weather form {
@@ -61,4 +60,8 @@
   text-align: center;
   font-size: 80px;
   font-weight: 150px;
+}
+
+.Weather .btn {
+  background: #c79081;
 }
