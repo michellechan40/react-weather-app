@@ -1,5 +1,9 @@
 body {
   font-family: arial, sans-serif;
   padding: 16px;
-  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  background: radial-gradient(
+    905px at 4.9% 85.8%,
+    rgb(255, 243, 242) 0.1%,
+    rgb(255, 247, 220) 57.6%
+  );
 }
